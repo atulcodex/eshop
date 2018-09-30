@@ -1,0 +1,433 @@
+/* ----------------------------- reset code -------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*---------------------------------top bar------------------------------------*/
+#top 
+{
+	color: #4081e8;
+	width: 100%;
+	height: 23px;
+}
+
+#top p 
+{
+	font-family: 'Song Myung', serif;
+	padding-left: 10px;
+	width: 70%;
+	float: left;
+}
+
+#top h5
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 370px;
+	padding-right: 0;
+	float: right;
+	line-height: 20px;
+	font-size: 15px;
+}
+
+#top h5 a:link
+{
+	text-decoration: none;
+	color: #4081e8;
+}
+
+#top h5 a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+
+#top h5 a:visited
+{
+	text-decoration: none;
+	color: #4081e8;
+}
+/*---------------------------------logo and search box------------------------------------*/
+
+#name
+{
+	width: 100%;
+	height: 56px;
+	clear: both;
+}
+
+#name img
+{
+	padding: 0;
+	width: 260px;
+}
+
+.search-box
+{
+	position: absolute;
+	top: 7.5%;
+	left: 42%;
+	transform: translate(-50%, -50%);
+	height: 27px;
+	color: black;
+	border-radius: 40px;
+	padding: 10px;
+	float: right;
+	background: #4081e8;
+}
+
+.search-box:hover > .search-txt
+{
+	width: 460px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+	background: white;
+}
+
+.search-btn
+{
+	color: black;
+	float: right;
+	width:32px;
+	height: 28px;
+	border-radius: 50%;
+	background: #4081e8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt
+{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	font-family: 'Song Myung', serif;
+	padding: 0;
+	color: black;
+	font-size: 20px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 460px;
+}
+
+#icon
+{
+	padding-right: 10px;
+	padding-top: 16px;
+	float: right;
+	color: #4081e8;
+	line-height: 30px;
+	font-size: 25px;
+	font-family: 'Song Myung', serif;
+}
+
+#icon a:link
+{
+	text-decoration: none;
+	color: #4081e8;
+}
+
+#icon a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+
+#icon a:visited
+{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+/*---------------------------------navigation bar------------------------------------*/
+
+#menu
+{
+	background-color: #4081e8;
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+#menu ul
+{
+	color: black;
+	padding-top: 10px;
+}
+
+#menu li
+{
+	margin: 7px;
+	padding-top: 5px;
+	padding-left: 7%;
+	font-family: 'Passion One', cursive;
+	color: black;
+	list-style: none;
+	display: inline;
+}
+
+#menu a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+#menu a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+#menu a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+#menu a:active
+{
+	color: white;
+	text-decoration: none;
+}
+
+#slide
+{
+	background-color: blue;
+	width: 100%;
+	height: 350px;
+}
+/*---------------------------------categories bar------------------------------------*/
+
+#cat
+{
+	background-color: #1561db;
+	float: left;
+	width: 20%;
+	height: 500px;
+	padding-bottom: 5px;
+}
+#cat #head 
+{
+	background-color: #1561db;
+	font-family: 'Song Myung', serif;
+	padding-left: 12px;
+	padding-top: 5px;
+	font-size: 18px;
+	list-style: none;
+}
+
+#cat #head2
+{
+	font-family: 'Sunflower', sans-serif;
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 13px;
+	list-style: none;
+}
+
+#cat #head2 a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+#cat #head2 a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+#cat #head2 a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*---------------------------------body and product list------------------------------------*/
+
+#content
+{
+	float: right;
+	width: 1075px;
+	height: 500px;
+	padding-bottom: 5px;
+}
+
+/*-------------------------------------product box---------------------------------------------*/
+#single_product
+{
+	float: left;
+	padding: 5px;
+}
+
+#pimg
+{
+	border: 2px solid #ffffff;
+}
+
+#pimg:hover
+{
+    border: 2px solid #4081e8;
+}
+
+#single_product #pname
+{	
+	font-family: 'Passion One', cursive;
+}
+
+#single_product button
+{
+	cursor: pointer;
+}
+
+#single_product p
+{
+	text-align: center;
+}
+
+/*---------------------------------ad banner------------------------------------*/
+
+#banner
+{
+	width: 100%;
+	height: 220px;
+	clear: both;
+	padding-top: 8px;
+}
+/*---------------------------------category list------------------------------------*/
+
+#cat2 img
+{
+	float: left;
+	width: 20%;
+	height: 300px;
+}
+/*---------------------------------body product list------------------------------------*/
+
+#content2
+{
+	float: right;
+	width: 1075px;
+	height: 300px;
+}
+/*---------------------------------sths------------------------------------*/
+
+#sths
+{
+	width: 100%;
+	height: 300px;
+	clear: both;
+}
+/*---------------------------------footer------------------------------------*/
+
+#foot
+{
+	width: 100%;
+	height: 300px;
+	background-color: #1561db;
+}
+
+#on
+{
+	float: left;
+	width: 28%;
+}
+
+#on th
+{
+	float: left;
+	background-color: #1561db;
+	font-family: 'Passion One', cursive;
+	clear: both;
+}
+
+#on td
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: 'Song Myung', serif;
+	clear: both;
+}
+
+#on #fafa a:link
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Song Myung', serif;
+}
+
+#on #fafa a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+#fafa a:visited
+{
+	color: black;
+}
+
+#own
+{
+	width: 72%;
+	float: right;
+}
+
+#own th
+{
+	padding-left: 28px;
+	padding-top: 20px;
+	font-family: 'Passion One', cursive;
+}
+
+#own td
+{	
+	padding-left: 50px;
+	font-family: 'Song Myung', serif;
+	padding: 10px;
+	margin: 13px;
+}
+
+#own td a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+#own td a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+#own td a:visited
+{
+	color: black;
+	text-decoration: none;
+}
